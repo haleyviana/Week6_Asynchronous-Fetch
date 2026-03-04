@@ -99,7 +99,6 @@ function add() {
 
     let li = document.createElement("li");
     li.textContent = i;
-
     //adds move to list
     ul.appendChild(li);
 
@@ -108,5 +107,6 @@ function add() {
   //adds information to team section
   row.appendChild(ul);
   team.appendChild(row);
+
 
 }
